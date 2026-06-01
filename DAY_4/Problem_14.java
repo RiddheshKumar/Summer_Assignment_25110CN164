@@ -9,18 +9,22 @@ public class Problem_14 {
         int b = 1;
         int newN = a+b;
         int i;
-        //System.out.print("0 ");
-        //System.out.println("1 ");
-        //System.out.println("1 ");
+        if (n == 1){
+            System.out.println(n+"th term of Fibonacci series is 0");
+        }
+        else if (n == 2||n==3){
+            System.out.println(n+"th term of Fibonacci series is 1");
+        }
         for(i= 1;i<=n-3;i++)
         {
             a = b;
             b= newN;
             newN = a+b;
+            if (i == n-3){
+                System.out.println(n+"th term of Fibonacci series is "+newN);
+            }
 
         }
-        while (i == n-3){
-            System.out.println(n+"th term of Fibonacci series is "+newN);
-        }
+
     }
 }
