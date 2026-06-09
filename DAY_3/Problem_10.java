@@ -1,4 +1,5 @@
 package DAY_3;
+//Write a program to Print prime numbers in a range.
 import java.util.Scanner;
 public class Problem_10 {
     public static void main(String[] args) {

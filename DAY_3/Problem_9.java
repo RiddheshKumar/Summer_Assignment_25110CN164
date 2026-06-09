@@ -1,4 +1,5 @@
 package DAY_3;
+//Write a program to Check whether a number is prime.
 import java.util.Scanner;
 public class Problem_9 {
     public static void main(String[] args) {

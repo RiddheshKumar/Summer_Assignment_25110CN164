@@ -5,9 +5,12 @@ public class Problem_24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter base(X) and power(n): ");
-        double X = sc.nextDouble();
-        double n = sc.nextDouble();
-        double num = Math.pow(X,n);
-        System.out.println(X+"^"+n+" is "+num);
+        int X = sc.nextInt();
+        int n = sc.nextInt();
+        int pro = 1;
+        for (int i = 1;i<=n;i++) {
+            pro = pro * X;
+        }
+        System.out.println("x^n is "+pro);
     }
 }

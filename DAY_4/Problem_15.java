@@ -1,4 +1,5 @@
 package DAY_4;
+//Write a program to Check Armstrong number.
 import java.util.Scanner;
 public class Program_15 {
     public static void main(String[] args) {
