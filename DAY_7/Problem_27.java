@@ -14,6 +14,7 @@ public class Problem_27 {
         {
             return a;
         }
+
         return (a%10)+summ(a/10);
     }
 }

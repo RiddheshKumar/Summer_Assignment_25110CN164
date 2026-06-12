@@ -11,6 +11,7 @@ public class Problem_28 {
         rev(n);
         System.out.println("Reverse of " + n + " is: " + reverse);
     }
+
     public static void rev(int n) {
         if (n == 0) {
             return;

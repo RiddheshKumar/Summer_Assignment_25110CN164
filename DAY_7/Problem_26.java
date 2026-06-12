@@ -17,6 +17,7 @@ public class Problem_26 {
         }
     }
 
+
     public static int facb(int a) {
         if (a==1||a==2){
             return 1;

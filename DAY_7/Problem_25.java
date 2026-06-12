@@ -9,6 +9,7 @@ public class Problem_25 {
         System.out.println("Factorial of "+n+" is: "+fac(n));
     }
 
+
     public static int fac(int a) {
         if (a==0){
             return 1;
